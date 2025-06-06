@@ -1,14 +1,6 @@
 # Defanger
 
-Eine einfache Webanwendung zum Hervorheben von Satzzeichen in Texten.
-
-## Beschreibung
-
-Defanger ist eine benutzerfreundliche Webanwendung mit dunklem Design, die es ermöglicht, Satzzeichen in Texten visuell hervorzuheben, indem sie in eckige Klammern gesetzt werden. Dies kann besonders nützlich sein für:
-- Textanalyse
-- Grammatikunterricht
-- Textformatierung
-- Dokumentenprüfung
+Defanger ist eine benutzerfreundliche Webanwendung mit dunklem Design, die es ermöglicht, Satzzeichen in Texten visuell hervorzuheben, indem sie in eckige Klammern gesetzt werden.
 
 ## Funktionen
 
