@@ -131,7 +131,7 @@
             });
 
             // Event Listener für Enter-Taste im Eingabefeld
-            inputText.addEventListener('keypress', function(e) {
+            inputText.addEventListener('keydown', function(e) {
                 if (e.key === 'Enter' && e.ctrlKey) {
                     processButton.click();
                 }
