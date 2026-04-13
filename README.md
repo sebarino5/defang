@@ -1,56 +1,49 @@
 # Defanger
 
-Defanger ist eine benutzerfreundliche Webanwendung mit dunklem Design, die es ermöglicht, Satzzeichen in Texten visuell hervorzuheben, indem sie in eckige Klammern gesetzt werden.
+Defanger is a simple web app with a dark theme that wraps punctuation characters in square brackets, useful for defanging IoCs (Indicators of Compromise).
 
-## Funktionen
+## Features
 
-- Einfache Texteingabe
-- Automatische Erkennung und Hervorhebung von Satzzeichen:
-  - Punkt (.) → [.]
-  - Komma (,) → [,]
-  - Fragezeichen (?) → [?]
-  - Ausrufezeichen (!) → [!]
-  - Semikolon (;) → [;]
-  - Doppelpunkt (:) → [:]
-- Kopieren des verarbeiteten Textes in die Zwischenablage
-- Responsive Design für alle Geräte
-- Tastaturkürzel: Strg + Enter zum Verarbeiten
-- Dunkles Design für bessere Lesbarkeit
+- Simple text input
+- Automatic detection and wrapping of punctuation:
+  - Period (.) → [.]
+  - Comma (,) → [,]
+  - Question mark (?) → [?]
+  - Exclamation mark (!) → [!]
+  - Semicolon (;) → [;]
+  - Colon (:) → [:]
+- Copy processed text to clipboard
+- Responsive design for all devices
+- Keyboard shortcut: Ctrl + Enter to process
+- Dark theme for better readability
 
-## Technologien
+## Technologies
 
 - HTML5
-- Tailwind CSS für das Styling
-- Vanilla JavaScript für die Logik
-- Inter Schriftart für optimale Lesbarkeit
+- Tailwind CSS
+- Vanilla JavaScript
+- Inter font
 
-## Verwendung
+## Usage
 
-1. Öffnen Sie die `index.html` in einem modernen Webbrowser
-2. Geben Sie Ihren Text in das Eingabefeld ein
-3. Klicken Sie auf "Text verarbeiten" oder drücken Sie Strg + Enter
-4. Der verarbeitete Text erscheint im Ausgabefeld
-5. Klicken Sie auf "In Zwischenablage kopieren", um den Text zu kopieren
+1. Open `index.html` in a modern browser
+2. Enter your text in the input field
+3. Click "Process Text" or press Ctrl + Enter
+4. The processed text appears in the output field
+5. Click "Copy to Clipboard" to copy the result
 
-## Beispiel
+## Example
 
-Eingabe:
+Input:
 ```
-Hallo Welt. Ich teste diese Anwendung! Funktioniert es, wie ich es erwarte? Ich glaube schon; ja.
-```
-
-Ausgabe:
-```
-Hallo Welt[.] Ich teste diese Anwendung[!] Funktioniert es[,] wie ich es erwarte[?] Ich glaube schon[;] ja[.]
+Hello World. Testing this app! Does it work, as expected? I think so; yes.
 ```
 
-## Design
+Output:
+```
+Hello World[.] Testing this app[!] Does it work[,] as expected[?] I think so[;] yes[.]
+```
 
-- Dunkles Farbschema für bessere Lesbarkeit
-- Moderne, minimalistische Benutzeroberfläche
-- Responsive Design für alle Bildschirmgrößen
-- Optimierte Kontraste für bessere Zugänglichkeit
+## License
 
-## Lizenz
-
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. 
+This project is licensed under the MIT License.
